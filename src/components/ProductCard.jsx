@@ -1,17 +1,20 @@
 import ProductItems from "./ProductItems";
-import {product} from"../constant/products";
+import {products} from"../constant/products";
 
 function ProductCard(){
     
     return(
         <>
-          {product.map((item)=>{
+        <div className="flex flex-wrap justify-center">
+          
+          {products.map((product)=>{
             return (
-                <li key={item.id}>
-                    <ProductItems title={item.title} price={item.price} imasge={item.image} material={item.material}/>
-                </li>
+              <div className="m-5" key={product.id}>
+                    <ProductItems productData={product}/>
+                </div>
             )
           })}
+          </div>
         </>
     )
 }

@@ -1,7 +1,7 @@
 function AdGroup(){
     return(
-        <div className="bg-orange-400 w-3/4 h-60 mx-auto flex justify-between">
-            <div><img className="h-full" src="https://s3-alpha-sig.figma.com/img/df7b/0007/dd97febbd9c515a5b741d8978e5ec3fa?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FECf39Yz4hJPA7AW3MPmXLKU8vlcPnZizWJZXUUqzcoJhTDkGu8xqZUb2r6KRs6CFGpw91zrJnD3ZXYW0X0blKahcWHCQ7-yPAhKJ4gKt~w~Rz9yjBgRLssaBi~zbaqSf0HsiX9B6QQ-nbEpuR71S-6yar2oeYRWf4rCNmz~GqXI8lQr5PZ0gOr8lleIRHzEf6aJG2UMN~cXCykVRlYLA7htaEATeV3cHyHN8uCDLOGjAOehkKvsWZpQk0Ue9mV~zWmjN10KpW0C2CyyTDZXo7wZUq26GDXgQ0Ivmd7LUyoeRrZEerPQPPxAQIMFLIw-fO98dMYPvJmdYDaR0X6Uzg__" alt="model" /></div>
+        <div className="bg-[#FE8A00] w-[1366px] h-[361px] mx-auto flex justify-between">
+            <div><img className=" h-full" src="https://s3-alpha-sig.figma.com/img/df7b/0007/dd97febbd9c515a5b741d8978e5ec3fa?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=iSXCOXOky8V9ToHkrdv5xlv02orSmK2qsgMOHmxHmouxh404UanPqtL1hJFehVXLXUj13KUx3BeDdGtYmsHNcjDyimng2oH3~pIZudH5BNkOcksbIH-295ltinTXDmWrXE389GMPOlfIMUpTOZv3pLvzdxLzKFh9Yff1a4XDlGQHw24x9h46nBPe0hNxxZWv~pd1d-R7R6XfiY~0ylBmn-oqTsj9dsO-CRWhSs48CMiTmXoavYtl59uqYmEB2xr~VcMGoU4zzSGeVk08kXwH1Un1CVOrQ3SEWp63QaWYbBrO6yB~kSmv6j0VhRo5DrJRn2xefuJOgB5VP4kDBpHrWQ__" alt="model" /></div>
             <div className="text-center my-auto">
                 <div className="text-white text-3xl" >
                    <p>GeT 50% Off on</p>
@@ -9,7 +9,7 @@ function AdGroup(){
                 </div>
                 <button className="bg-white text-rose-600 border rounded-xl py-0.5 px-5 font-medium mt-5">Shop Now</button>
             </div>
-            <div><img  className="h-full"src="https://s3-alpha-sig.figma.com/img/7304/67bb/9b9b22fb7431e359e7b494991e48c5d1?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HwGKzVtK2jdVIXHG3YMDzG2-eV-aUbQXLdaHHbxens1eyExAe4q21OZBpC9GqlRbMn7vXS7uqQvxbVeGOkCWqeQKuwfjatzs-Didu0IAgbKAqwLIcOPeC4RttZh1nMBffjsA2pm6fNcKSvPMfuEQLVpH0BYPIxy~0XM-wbVa604zF62QvhglgjRYbZynmZHKLXNxASLsV0IeoR18XGOY~6jpihqKVarTTXIMsqNk-P3q4gDp4~UfFlb1le0cDxpSqK2IZLsmWNOPsLZedQPvI9ODfB72TKGPmWAbw-hW4Cr~gBFZ-O2wuH5W4nz7RMeEYvvkuohqOswaE1c9y8DgRA__" alt="model" /></div>
+            <div><img  className="h-full"src="https://s3-alpha-sig.figma.com/img/7304/67bb/9b9b22fb7431e359e7b494991e48c5d1?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=inleSMIXo7qX1ZxVaNKV2l854JeG31-nDv9lJajc3-eVHsN6EeS~TxX0pN-GZduiJKcX7aUfFbl0uCJp3b2TCkcxi9mJNvjKUSB1phgJ3-QjG2duiVfyvyliRodTsNovFp3GcP9-dl~JNsaZ3gIUf3JsJAyxjLUDeQoSTX9E-6xgX0WYPvSNWafku7UblI2Z~80FtTYi8H2CynfGTH9MFHStOMjfcbV~c9G4BymmgGbgpoyXt5nxft~0vu6M~Ds6uxGLPWGfPa02HwPHBPF2beaJTttgyT-1qNV9Htn3J9fqZIvchgp6nm4F9TV6enHYXJjQ3Jb8POyTvd2lJdy0vg__" alt="model" /></div>
         </div>
     )
 }
