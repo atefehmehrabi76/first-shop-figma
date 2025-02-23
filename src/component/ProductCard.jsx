@@ -15,7 +15,7 @@ function ProductCard() {
     <div className="flex gap-10">
       <Title products={products[selected]} />
       <Image products={products[selected]} />
-      <Buttons onButtonClick={handleButtonClick} />
+      <Buttons onButtonClick={handleButtonClick} selectedIndex={selected} />
     </div>
   );
 }

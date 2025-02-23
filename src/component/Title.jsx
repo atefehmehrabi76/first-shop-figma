@@ -1,9 +1,9 @@
 import React from "react";
-// import "../Animation.css";
 
-function Title({ products, textClass }) {
+
+function Title({ products}) {
   const { title, description } = products;
-  // const { title, description } = productData;
+  
   return (
     <div
       className="w-[200px] h-[200px] text-center flex flex-col justify-center"
