@@ -1,11 +1,19 @@
 import React from "react";
-import ProductCard from "./component/ProductCard";
+import ProductCard from "./components/ProductCard";
+import Header from "./components/Header";
+import AdGroup from "./components/AdGroup";
+import Footer from "./components/Footer";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <div className="my-52 mx-[100px] ">
+    <>
+      <Header />
+      <NavBar />
+      <AdGroup />
       <ProductCard />
-    </div>
+      <Footer />
+    </>
   );
 }
 
