@@ -6,7 +6,7 @@ function Image({ products }) {
       <img
         className="w-[200px] h-[200px]"
         src={products.image}
-        alt={`image ${products.title}`}
+        alt={`${products.title}`}
       />
     </div>
   );
