@@ -1,24 +1,12 @@
-import { BrowserRouter } from "react-router-dom";
-import Header from "./components/Header";
-import NavBar from "./components/NavBar";
-import AdGroup from "./components/AdGroup";
-import ProductCard from "./components/ProductCard";
-import Footer from "./components/Footer";
+import React from "react";
+import ProductCard from "./component/ProductCard";
 
-
-function App(){
-  
-  return(
-    <>
-       <Header/>
-      <BrowserRouter>
-            <NavBar/>
-            <AdGroup/>
-       </BrowserRouter>
-       <ProductCard/>
-       <Footer/>
-    </>
-  )
+function App() {
+  return (
+    <div className="my-52 mx-[100px] ">
+      <ProductCard />
+    </div>
+  );
 }
 
 export default App;
